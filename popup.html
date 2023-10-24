@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        background-color: transparent;
+      }
+
+      #getHeader {
+        width: 130px;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1.25px;
+        border: none;
+        background-color: #6200ea;
+        color: #ffffff;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+
+      #getHeader:hover {
+        background-color: #3700b3;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      #getHeader.copied {
+        background-color: #00c853;
+      }
+    </style>
+</head>
+<body>
+    <button id="getHeader">Copy Last Authorization Header</button>
+<script src="popup.js"></script>
+</body>
+</html>

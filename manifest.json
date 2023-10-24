@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Authorization Capture",
+    "version": "1.0",
+    "permissions": ["webRequest", "storage"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
